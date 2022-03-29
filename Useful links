@@ -4,3 +4,5 @@ http://dan.drown.org/stm32duino/package_STM32duino_index.json
 Board name:
 STM32F1xx/GD32F1xx boards by stm32duino version 2020.8.9
 
+Visual Studio: Visual Studio 2019
+Extension: Arduino IDE for Visual Studio (VisualMicro)
