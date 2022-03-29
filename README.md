@@ -9,7 +9,11 @@ Visual Studio: Visual Studio 2019
 Extension: Arduino IDE for Visual Studio (VisualMicro)
 
 arm-none-eabi toolchain from Cube IDE
+
 https://drive.google.com/file/d/1Iq9hZ-0rsWQFR8FWtz4JfCobEzfqXEKW/view?usp=sharing
+
+The default location of the toolchain that arduino Use:
+%userprofile%\AppData/Local/Arduino15/packages/arduino/tools/arm-none-eabi-gcc
 
 
 # Problem Statement
