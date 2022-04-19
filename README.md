@@ -34,3 +34,19 @@ Most possibly, the deliverables will be:
 2. an Arduino board package that enumerates an additional option to build for GD32E103CBT6 with FPU support and is compatible with the same code upload options,
 3. a modified PhysLogger code that uses a system-wide c-define (most probably, a redefined F_CPU) to switch the parameters to achieve the same timing, and
 4. documentation of the migration process.
+
+
+# Notes
+UploadMethod STlink builds with USB serial enabled but it doesn't enumerate. (Descriptor request fails)
+
+These configs run a successful blinky and Serial1 TX (But not USB Serial). The timing is also accurate.
+IDE: VS19
+Device: F103CB
+UploadMethod: Serial/STLink
+Uploader: Cube Prog/STLink within VM
+
+These configs DO NOT run a successful blinky:
+IDE: VS19
+Device: F103CB
+UploadMethod: STM32Duino BootLoader
+Uploader: Cube Prog
